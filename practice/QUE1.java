@@ -11,6 +11,9 @@ public class QUE1{
         int roll ;
         String name;
         double cgpa;
+        void print(){
+            System.out.println(name + "," + roll + "," + cgpa);
+        }
   
     }
     public static void main(String[] args){
@@ -27,7 +30,13 @@ public class QUE1{
         s2.roll=41;
         s2.cgpa=9.5;
 
-        System.out.println(s1.name +","+ s1.roll);
+        // System.out.println(s1.name +","+ s1.roll);
+
+
+        s1.print();
+        s2.print();
+
+
         sc.close();
 
     }
