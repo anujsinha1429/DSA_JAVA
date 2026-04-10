@@ -2,7 +2,7 @@ package ASSIGNMENT_2;
 
 import java.util.Scanner;
 
-class car{
+class carq1{
         String model;
         int year;
     void setdetails(){
@@ -19,8 +19,8 @@ class car{
 }
    public class que1 {
    public static void main(String[] args) {
-        car c1=new car();
-        car c2=new car();
+        carq1 c1=new carq1();
+        carq1 c2=new carq1();
         c1.model="toyota";
         c1.year=2020;
         c2.setdetails();
