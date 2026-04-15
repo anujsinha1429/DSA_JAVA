@@ -1,17 +1,14 @@
 package ASSIGNMENT_2;
-
 import java.util.Scanner;
-
 class carq1{
         String model;
         int year;
     void setdetails(){
         Scanner sc = new Scanner (System.in);
         System.out.println("enter the model of the car :");
-        model=sc.nextLine();
+        model=sc.nextLine();//kia
         System.out.println("enter the year of the car :");
-        year=sc.nextInt();
-        sc.close();
+        year=sc.nextInt();//2025
     }
     void display(){
         System.out.println(model + " " + year);
@@ -35,11 +32,5 @@ class carq1{
         else{
             System.out.println("both cars are of the same year");
         }
-
-        
-
-
-
-   
     }
 }
