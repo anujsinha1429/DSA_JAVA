@@ -12,9 +12,9 @@ public class que3 {
         int m=1;
         int add=0;
         while (n>0){
-            n=n%10;
-            m=m*n;
-            add=add+n;
+            int rem =n%10;
+            m=m*rem;
+            add=add+rem;
             n=n/10;
         }
 
