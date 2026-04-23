@@ -7,14 +7,14 @@ abstract class shapeq5 {
 
     }
     class circle extends shapeq5{
-        Scanner sc=new Scanner(System.in);
-        double radius;
+       double radius;
             circle(){
+            Scanner sc=new Scanner(System.in);
             System.out.println("enter the radius of the circle :");
             radius=sc.nextDouble();
         }
         void area(){
-            System.out.println("calculating area of a circle"+3.14*radius*radius);
+            System.out.println(3.14*radius*radius);
         }
     }
     class rectangle extends shapeq5{
@@ -31,9 +31,11 @@ abstract class shapeq5 {
         }
     }
     class triangle extends shapeq5{
-        Scanner sc=new Scanner(System.in);
-        double base, height;
+       
+        double base;
+        double height;
          triangle(){
+             Scanner sc=new Scanner(System.in);
             System.out.println("enter the base of the triangle :");
             base=sc.nextDouble();
             System.out.println("enter the height of the triangle :");
