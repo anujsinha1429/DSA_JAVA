@@ -1,8 +1,8 @@
 package ASSIGNMENT_2;
 import java.util.Scanner;
 
-public class que2 {
-    public static class complex{
+
+class complex{
         int real;
         int img;
     
@@ -25,12 +25,11 @@ public class que2 {
     return c3;
 }
     }
+    public class que2 {
 public static void main(String[] args) {
     complex c1=new complex();
     complex c2=new complex();
-    System.out.println("enter the first complex number :");
     c1.setdata();
-    System.out.println("enter the second complex number :");
     c2.setdata();
     System.out.println("the first complex number is :");
     c1.display();
