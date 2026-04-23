@@ -1,12 +1,9 @@
 package ASSIGNMENT_2;
-
-public class que3 {
-    public static class book{
+class book{
         int bookid;
         double price;
         int quantity ;
         static double totalprice;
-   
     book(int bookid,double price,int quantity){
         this.bookid=bookid;
         this.price=price;
@@ -17,16 +14,14 @@ public class que3 {
         System.out.println("book id : " + bookid);
         System.out.println("price : " + price);
         System.out.println("quantity : " + quantity);
-
     }
-     double totalamount(){
-       return price*quantity;
+    double totalamount(){
+        return price*quantity;
     }
-
-
 }
+public class que3 {
 public static void main(String[] args) {
-    book b1=new book(1,400.0,2);
+    book b1=new book(1,250.0,2);
     book b2=new book(2,300.0,3);
     book b3=new book(3,500.0,1);
     book b4=new book(4,200.0,4);
