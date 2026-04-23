@@ -6,7 +6,7 @@ public class que6 {
     public static boolean isOdd(int n){
     //     return (n & 1)==1;
     // }
-    String s= Integer.toString(n);
+    String s=String.valueOf(n); //convert int into string 
     char a=s.charAt(s.length()-1);
     if (a=='1' || a=='3' || a=='5' || a=='7' || a=='9'){
         return true;
