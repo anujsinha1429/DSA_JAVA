@@ -15,8 +15,8 @@ public class que2 {
             System.out.println("Exception: Invalid index!");
         }
         try{
-            String [] color=null;
-            System.out.println("Color at index 0: " + color[0]);
+            String [] colors=null;
+            System.out.println("Color at index 0: " + colors[0]);
         }
         catch (NullPointerException e) {
             System.out.println("Exception: Array is null!");
