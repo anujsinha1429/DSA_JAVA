@@ -19,13 +19,13 @@ class complex{
 
     }
     public complex add(complex c1, complex c2){
-    complex c3=new complex();
-    c3.real=c1.real+c2.real;
-    c3.img=c1.img+c2.img;
-    return c3;
+    complex c4=new complex();
+    c4.real=c1.real+c2.real;
+    c4.img=c1.img+c2.img;
+    return c4;
 }
     }
-    public class que2 {
+public class que2 {
 public static void main(String[] args) {
     complex c1=new complex();
     complex c2=new complex();
@@ -43,7 +43,5 @@ public static void main(String[] args) {
 
 }
 
-
-    
 }
 
