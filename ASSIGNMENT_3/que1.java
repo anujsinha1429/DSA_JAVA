@@ -10,7 +10,9 @@ public class que1 {
             if (n<0){
                 throw new NumberFormatException("number cannot be negative");
             }
-            System.out.println("the number is " + n);
+            else{
+                System.out.println("the number is " + n);
+            }
         }
         catch (NumberFormatException e){
             System.out.println("exception occurred: "+ e.getMessage());
