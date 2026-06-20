@@ -8,21 +8,21 @@ class bank{
     static double totalamount ;
 
     void setbankname(){
-    Scanner b=new Scanner(System.in);
+    Scanner sc=new Scanner(System.in);
     System.out.println("enter the name of the bank ");
-    bankname=b.nextLine();
+    bankname=sc.nextLine();
 
    }
    void setamount(){
-    Scanner b=new Scanner(System.in);
+    Scanner sc=new Scanner(System.in);
     System.out.println("enter the deposit amount more then 1000");
-    depositamount=b.nextDouble();
+    depositamount=sc.nextDouble();
     totalamount=totalamount+depositamount;
    }
    void showdata(){
     System.out.println("Bank Name: " + bankname);
     System.out.println("Deposit Amount: " + depositamount);
-    System.out.println("total amount "+totalamount);
+    // System.out.println("total amount "+totalamount);
    
    }
 
@@ -40,6 +40,7 @@ public class que13 {
         for (int i=0;i<5;i++){
             b[i].showdata();
         }
+        System.out.println("Total amount deposited in all banks: " + bank.totalamount);
    
         int min=0;
         for (int i=1;i<5;i++){
