@@ -14,7 +14,7 @@ public class que13 {
     }
     public static void main(String[] args) {
         que13 obj = new que13();
-        int n=10;
+        int n=4;
         obj.bin(n);
     }
 
