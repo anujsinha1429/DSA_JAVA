@@ -5,9 +5,9 @@ class empployess{
     String name ;
     double salary;
 
-    empployess(String n, double s){
-        name=n;
-        salary=s;
+    empployess(String a, double b){
+        name=a;
+        salary=b;
     }
     void displaydetails(){
         System.out.println("name of the employee is : " + name);
