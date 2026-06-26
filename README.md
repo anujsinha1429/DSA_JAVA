@@ -36,7 +36,7 @@ DSA_JAVA
 
 ## 🎯 Current Progress
 
-* [ ] Patterns
+* [✅] Patterns
 * [ ] Java Collections
 * [ ] Basic Maths
 * [ ] Basic Recursion
