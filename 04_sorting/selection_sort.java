@@ -16,6 +16,9 @@ public class selection_sort {
                 int temp=smallest;
                 nums[j]=nums[i];
                 nums[i]=temp;
+                // int temp=nums[i];
+                // nums[i]=smallest;
+                // nums[j]=temp;
                 
             }
         }

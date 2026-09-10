@@ -12,9 +12,9 @@
             for(int j=0;j<nums.length-i-1;j++){
                 if (nums[j]>nums[j+1]){
                     // swap
-                    int temp=nums[j+1];
-                    nums[j+1]=nums[j];
-                    nums[j]=temp;
+                    int temp=nums[j];
+                    nums[j]=nums[j+1];
+                    nums[j+1]=temp;
 
                     // swap=true;
                 }
